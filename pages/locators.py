@@ -16,6 +16,7 @@ class LoginPageLocators:
     CONFIRM_PASSWORD_INPUT_IN_REGISTER_FORM = (By.CSS_SELECTOR, "#id_registration-password2")
     SUBMIT_IN_REGISTER_FORM = (By.NAME, "registration_submit")
 
+
 class ProductPageLocators:
     ADD_TO_BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-add-to-basket")
     PRODUCT_TITLE = (By.TAG_NAME, "h1")
